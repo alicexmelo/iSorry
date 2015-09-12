@@ -9,8 +9,24 @@
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
+    font-family: 'Comic Sans MS';
 }
 
 h1 {
+	color: white !important; 
+	font-size: 60px !important;
+    font-weight: bold !important;
 	text-align: center;
+	font-family: 'Comic Sans MS' !important;
+}
+
+h3 {
+	color: white !important;
+	font-size: 35px !important;
+	font-family: 'Comic Sans MS' !important;
+}
+
+body {
+	background-image: url('http://f.fwallpapers.com/images/blue-hearts-background.jpg');
+	opacity: 0.95;
 }
