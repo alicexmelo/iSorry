@@ -7,9 +7,9 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 require 'forgery'
-Mensagem.create( tipo: 'dei bolo' , conteudo: '“Se eu não lavar a roupa, eu vou literalmente ter que sair de casa pelado amanhã”.')
-Mensagem.create( tipo: 'dei bolo' , conteudo: "“Hum, internet? Talvez você tenha ouvido falar sobre isso?”")
-Mensagem.create( tipo: 'dei bolo' , conteudo: "“Eu tenho um encontro quente com um pedaço de pizza”")
+Mensagem.create( tipo: 'Dei Bolo' , conteudo: '“Se eu não lavar a roupa, eu vou literalmente ter que sair de casa pelado amanhã”.')
+Mensagem.create( tipo: 'Dei Bolo' , conteudo: "“Hum, internet? Talvez você tenha ouvido falar sobre isso?”")
+Mensagem.create( tipo: 'Dei Bolo' , conteudo: "“Eu tenho um encontro quente com um pedaço de pizza”")
 
 Mensagem.create( tipo: 'Ofendi' , conteudo: '“malz ae."')
 Mensagem.create( tipo: 'Ofendi' , conteudo: "“Não sei perder minha vida!! Não sei qual a minha culpa mas, peço perdão.”")

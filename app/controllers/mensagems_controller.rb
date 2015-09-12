@@ -5,6 +5,10 @@ class MensagemsController < ApplicationController
   # GET /mensagems.json
   def index
     @mensagems = Mensagem.all
+
+    @ofendi = Mensagem.where(tipo: "Ofendi")
+    @dei_bolo = Mensagem.where(tipo: "Dei Bolo")
+    @foi_sem_querer = Mensagem.where(tipo: "Foi Sem Querer")
   end
 
   # GET /mensagems/1
